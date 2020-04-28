@@ -14,4 +14,5 @@ mix
     .postCss("src/css/theme.css", "public/css", plugins)
     .options({
         processCssUrls: false
-    });
+    })
+    .copy('src/images/**/*', 'public/images');
