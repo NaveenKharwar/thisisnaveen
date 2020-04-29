@@ -6,6 +6,7 @@ module.exports = {
             },
             fontFamily: {
                 body: ["Manrope", "sans-serif"],
+                brand: [ 'Open Sans', 'sans-serif'],
             },
             colors: {
                 primary: '#FA255E',
