@@ -2,21 +2,11 @@
 
 html,
 body {
-	@apply m-0 p-0 min-h-screen h-screen w-full;
+  @apply m-0 p-0 h-full w-full min-w-full;
 }
 
 body {
-	@apply font-body text-lg overflow-hidden;
-}
-
-.section-home {
-	transform: none;
-}
-
-@screen lg { 
-	.section-home {
-		transform: translate(-50%, -50%);
-	}
+  @apply font-body text-lg;
 }
 
 @tailwind components;
