@@ -1,4 +1,6 @@
 {
+    "/public/js/script.js": "/public/js/script.js",
     "/public/css/theme.css": "/public/css/theme.css",
-    "/public/images/NaveenKharwar-dev.png": "/public/images/NaveenKharwar-dev.png"
+    "/public/images/NaveenKharwar-dev.png": "/public/images/NaveenKharwar-dev.png",
+    "/public/css/all.min.css": "/public/css/all.min.css"
 }

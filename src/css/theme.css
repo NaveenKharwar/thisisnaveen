@@ -10,7 +10,13 @@ body {
 }
 
 .section-home {
-	transform: translate(-50%, -50%);
+	transform: none;
+}
+
+@screen lg { 
+	.section-home {
+		transform: translate(-50%, -50%);
+	}
 }
 
 @tailwind components;
