@@ -15,7 +15,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-brand font-bold  text-secondary block pb-2;
+  @apply font-brand font-bold  text-gray-500 block pb-2;
 }
 
 h1 {
@@ -37,8 +37,10 @@ h6 {
   @apply text-xl;
 }
 
-p {
-	@apply pb-3 text-secondary;
+p,
+ul,
+li {
+	@apply pb-3 text-gray-600;
 }
 
 @tailwind components;
