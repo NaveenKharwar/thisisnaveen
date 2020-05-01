@@ -2,7 +2,7 @@
 
 html,
 body {
-  @apply m-0 p-0 h-full w-full min-w-full;
+  @apply m-0 p-0 h-full w-full min-w-full text-secondary;
 }
 
 body {
@@ -15,7 +15,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-brand font-bold block pb-2;
+  @apply font-brand font-bold  text-secondary block pb-2;
 }
 
 h1 {
@@ -38,7 +38,7 @@ h6 {
 }
 
 p {
-	@apply pb-3 text-gray-900;
+	@apply pb-3 text-secondary;
 }
 
 @tailwind components;

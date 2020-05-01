@@ -9,7 +9,7 @@ module.exports = {
                 brand: [ 'Open Sans', 'sans-serif'],
             },
             colors: {
-                primary: '#FA255E',
+                primary: '#0f1621',
                 secondary: '#C39EA0',
                 accent: '#F8E5E5'
             },
