@@ -43,6 +43,10 @@ li {
 	@apply pb-3 text-gray-600;
 }
 
+a {
+	@apply text-secondary;
+}
+
 @tailwind components;
 
 @tailwind utilities;
