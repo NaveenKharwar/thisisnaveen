@@ -8,6 +8,7 @@ module.exports = {
         extend: {
             fontSize: {
                 'full': '5rem',
+                '0.8' : '0.8rem'
             },
             fontFamily: {
                 body: ["Manrope", "sans-serif"],

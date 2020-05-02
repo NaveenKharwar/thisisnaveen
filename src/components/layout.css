@@ -51,7 +51,7 @@ li {
 	@apply pb-3 text-gray-600;
 }
 
-a {
+a:hover {
 	@apply text-secondary;
 }
 
@@ -64,6 +64,31 @@ a {
 	content: "}";
 	@apply pl-2;
 }
+
+
+a.social-icons {
+	@apply flex flex-initial flex-col items-center mx-2;
+}
+
+a.social-icons:first-child {
+	@apply ml-0;
+}
+
+
+i {
+	transition: .2s cubic-bezier(0.75,0,0.08,1);
+}
+span.after-icons {
+	@apply block text-0.8 text-center opacity-0;
+	transform: translate3d(0,.5rem,0);
+	transition: .2s cubic-bezier(0.75,0,0.08,1);
+}
+
+svg:hover ~ span.after-icons {
+	opacity: 1;
+	transform: translateZ(0);
+}
+
 @tailwind components;
 
 @tailwind utilities;
