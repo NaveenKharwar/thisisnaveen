@@ -2,7 +2,7 @@
 
 html,
 body {
-  @apply m-0 p-0 h-full w-full min-w-full text-secondary;
+  @apply m-0 p-0 h-full w-full min-w-full text-secondary subpixel-antialiased;
 }
 
 body {
@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-brand font-bold  text-gray-500 block pb-2;
+  @apply font-body font-bold text-gray-500 block pb-2;
 }
 
 h1 {
@@ -51,7 +51,7 @@ li {
 	@apply pb-3 text-gray-600;
 }
 
-a {
+a:hover {
 	@apply text-secondary;
 }
 
@@ -64,6 +64,30 @@ a {
 	content: "}";
 	@apply pl-2;
 }
+
+a.social-icons {
+	@apply flex flex-initial flex-col items-center mx-1;
+}
+
+a.social-icons:first-child {
+	@apply ml-0;
+}
+
+.social-icons svg {
+	@apply text-3xl;
+	transition: .2s cubic-bezier(0.75,0,0.08,1);
+}
+span.after-icons {
+	@apply font-brand font-bold text-center block text-0.8 opacity-0;
+	transform: translate3d(0,.5rem,0);
+	transition: .2s cubic-bezier(0.75,0,0.08,1);
+}
+
+svg:hover ~ span.after-icons {
+	opacity: 1;
+	transform: translateZ(0);
+}
+
 @tailwind components;
 
 @tailwind utilities;

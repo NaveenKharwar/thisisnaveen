@@ -8,10 +8,11 @@ module.exports = {
         extend: {
             fontSize: {
                 'full': '5rem',
+                '0.8' : '0.8rem'
             },
             fontFamily: {
                 body: ["Manrope", "sans-serif"],
-                brand: [ 'Open Sans', 'sans-serif'],
+                brand: [ 'Raleway', 'sans-serif'],
             },
             colors: {
                 primary: '#0f1621',
