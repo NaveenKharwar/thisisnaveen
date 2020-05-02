@@ -31,7 +31,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-          fonts: [`Manrope:200,300,400, 500, 600, 700, 800,`, `Open Sans:300,400,600,700,800`]
+          fonts: [`Manrope:200,300,400, 500, 600, 700, 800,`, `Raleway:300,400,600,700,800`]
       },
     },
   ],

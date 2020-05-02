@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-brand font-bold text-gray-500 block pb-2;
+  @apply font-body font-bold text-gray-500 block pb-2;
 }
 
 h1 {

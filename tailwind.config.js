@@ -12,7 +12,7 @@ module.exports = {
             },
             fontFamily: {
                 body: ["Manrope", "sans-serif"],
-                brand: [ 'Open Sans', 'sans-serif'],
+                brand: [ 'Raleway', 'sans-serif'],
             },
             colors: {
                 primary: '#0f1621',
