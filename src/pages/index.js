@@ -11,7 +11,7 @@ const IndexPage = () => (
     <SEO title="Home" />
 		<section className="lg:px-0 px-6">
 			<div className="container mx-auto ">
-				<h1 className="lg:text-5xl text-4xl font-normal"><span className="lg:text-6xl text-5xl font-semibold">Hey 👋,</span><br />Welcome to my space, I am <span className="font-semibold">Naveen Kharwar.</span></h1>
+				<h1 className="lg:text-5xl text-4xl font-normal">Hey 👋, welcome to my space, I am <span className="font-bold">Naveen Kharwar.</span></h1>
                 <p className="iam text-xl">designer & developer</p>
 				<span className="block mb-3">📍 India</span>
 				<span className="block mb-5">💌 naveenkharwar(@)hotmail.com</span>
