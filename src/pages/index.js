@@ -43,7 +43,7 @@ const IndexPage = () => (
                             </a>
 						</li>
 					</ul>
-					<a className="inline-block bg-gray-900 hover:bg-gray-200 text-gray-100 hover:text-gray-900 text-base py-3 px-5" href="#">watch my
+					<a className="inline-block bg-gray-800 hover:bg-gray-200 text-gray-100 hover:text-gray-900 text-base py-3 px-5" href="#">watch my
 						portfolio</a>
 			</div>
             </section>
