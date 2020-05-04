@@ -51,6 +51,10 @@ li {
 	@apply pb-3 text-gray-600;
 }
 
+a {
+	@apply transition duration-300 ease-in-out;
+}
+
 a:hover {
 	@apply text-secondary;
 }
