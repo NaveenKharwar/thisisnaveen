@@ -1,7 +1,7 @@
 import React from "react"
 
 import {
-  FaFacebookF,
+  FaCodepen,
   FaTwitter,
   FaDev,
   FaInstagram,
@@ -18,9 +18,9 @@ const accounts = [
   },
   {
     id: "2",
-    account: "Facebook",
-    url: "http://facebook.com/naveenkharwar0/",
-    icon: <FaFacebookF />,
+    account: "Codepen",
+    url: "https://codepen.io/naveenkharwar/",
+    icon: <FaCodepen />,
   },
   {
     id: "3",
