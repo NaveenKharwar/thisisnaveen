@@ -20,6 +20,7 @@ module.exports = {
                 accent: '#F8E5E5'
             },
             borderWidth: {
+                '1' : '1px',
                 '10': '10px',
                 '20': '20px',
             },

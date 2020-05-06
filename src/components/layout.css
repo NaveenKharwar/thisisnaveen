@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-body font-bold text-gray-500 block pb-2;
+  @apply font-brand font-bold text-gray-500 block pb-2;
 }
 
 h1 {
@@ -51,8 +51,16 @@ li {
 	@apply pb-3 text-gray-600;
 }
 
+a {
+	@apply transition duration-300 ease-in-out;
+}
+
 a:hover {
 	@apply text-secondary;
+}
+
+.site-content a {
+	@apply border-b-1 border-dashed border-gray-500;
 }
 
 .iam::before {
