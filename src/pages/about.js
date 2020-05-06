@@ -1,11 +1,12 @@
 import React from "react"
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <section className="lg:px-0 px-6 lg:pt-12 pt-10">
+    <section className="site-content lg:px-0 px-6 lg:pt-12 pt-10">
       <div className="container mx-auto bg-primary">
         <div className="border-2 border-gray-700 shadow-2xl lg:px-10 lg:py-10 px-5 py-0">
           <div className="flex flex-col flex-wrap my-4">
@@ -30,17 +31,17 @@ const IndexPage = () => (
               Technologies And WordPress stuffs, it helps me to stay productive
               as well as collabrative. Apart from this, I love to participate in
               technological events, such as WordCamps. To know more about me
-              click here. Check out my blog!
+              click here.<br /> Check out my <Link to="blog">blog!</Link>
             </p>
             <h5>Where Naveen Kharwar live?</h5>
             <p>I live in India.</p>
-            <h5>Is Naveen available for Freelance work?</h5>
-            <p>Yes, Contact @wayoutworks.</p>
             <h5>Can I get your Netflix password?</h5>
             <p>Yes offcourse, here it is ******* </p>
+            <h5>Is Naveen available for Freelance work?</h5>
+            <p>Yes, Contact <a href="https://www.wayoutworks.com/">@wayoutworks</a>.</p>
             <h5>What are your skills?</h5>
             <p>
-              Oh, are you getting professional? anyways here are my skills I
+              Oh, are you getting professional? anyway here are my skills I
               will decorate with css 🙂
             </p>
             <div className="flex flex-wrap lg:w-2/3 w-full bg-gray-900 p-5 mb-5">
@@ -59,7 +60,7 @@ const IndexPage = () => (
                 <ul className="lg:pr-3 pr-0">
                   <li>HTML/JSX</li>
                   <li>CSS/SCSS</li>
-                  <li>ReactJS/AlpineJS/Jquery</li>
+                  <li>JavaScript</li>
                   <li>GatsbyJS</li>
                   <li>PHP</li>
                   <li>GraphQL</li>
@@ -86,27 +87,14 @@ const IndexPage = () => (
             </div>
             <h5>You talk alot! show somthing that you did</h5>
             <p>
-              hehehe! visit{" "}
-              <a href="https://www.wayoutworks.com/">
-                https://www.wayoutworks.com/
-              </a>{" "}
-              ,You will be able to find all my client work done here.I use{" "}
-              <a hre="https://www.github.com/naveenkharwar">Gihtub</a> you can
-              visit there also to check my pushed code.
+              hehehe! visit <a href="https://www.wayoutworks.com/">@wayoutworks</a>, You will be able to see all my client work done.<br />I use <a href="https://www.github.com/naveenkharwar">Github</a> you can visit there to check my pushed code.
             </p>
             <h5>Why you choose to have this simple website?</h5>
-            <p>
-              You feel same? btw there is a website{" "}
-              <a href="https://motherfuckingwebsite.com/">
-                https://motherfuckingwebsite.com/
-              </a>{" "}
-              I agree with the author that having simple website is much better
-              to have unwanted animation 😒
-            </p>
+            <p>Do you feel the same? to know the complete reason there is a website <a href="https://motherfuckingwebsite.com/">https://motherfuckingwebsite.com/</a>, I agree with the author that a simple website is much better than to have a website with lots of unwanted animation and all those fuc*in stuffs 😒.</p>
             <h5>Well, nice to talk to you</h5>
             <p>
               Same here! If you have anything to share or just chat you can
-              always contact me through this page 🤜<a href="#">visit</a>.
+              always contact me through <Link to="contact">Contact</Link> page visit.
             </p>
           </div>
         </div>
