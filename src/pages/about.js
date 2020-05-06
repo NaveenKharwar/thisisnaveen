@@ -14,6 +14,7 @@ const IndexPage = () => (
               <img
                 className="rounded-full border-2 border-gray-100 w-56"
                 src="https://pbs.twimg.com/profile_images/1234147144019402756/kqWDnKfU_400x400.jpg"
+                alt="Naveen Kharwar"
               />
               <p className="text-2xl pt-4">
                 {" "}
@@ -42,7 +43,7 @@ const IndexPage = () => (
             <h5>What are your skills?</h5>
             <p>
               Oh, are you getting professional? anyway here are my skills I
-              will decorate with css 🙂
+              will decorate with css <span role="img" aria-label="smile">🙂</span>
             </p>
             <div className="flex flex-wrap lg:w-2/3 w-full bg-gray-900 p-5 mb-5">
               <div className="lg:w-1/4 w-full">
@@ -90,7 +91,7 @@ const IndexPage = () => (
               hehehe! visit <a href="https://www.wayoutworks.com/">@wayoutworks</a>, You will be able to see all my client work done.<br />I use <a href="https://www.github.com/naveenkharwar">Github</a> you can visit there to check my pushed code.
             </p>
             <h5>Why you choose to have this simple website?</h5>
-            <p>Do you feel the same? to know the complete reason there is a website <a href="https://motherfuckingwebsite.com/">https://motherfuckingwebsite.com/</a>, I agree with the author that a simple website is much better than to have a website with lots of unwanted animation and all those fuc*in stuffs 😒.</p>
+            <p>Do you feel the same? to know the complete reason there is a website <a href="https://motherfuckingwebsite.com/">https://motherfuckingwebsite.com/</a>, I agree with the author that a simple website is much better than to have a website with lots of unwanted animation and all those fuc*in stuffs <span role="img" aria-label="meh">😒</span>.</p>
             <h5>Well, nice to talk to you</h5>
             <p>
               Same here! If you have anything to share or just chat you can
