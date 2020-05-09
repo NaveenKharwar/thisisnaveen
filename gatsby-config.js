@@ -1,9 +1,12 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.naveenkharwar.dev`,
     title: `Naveen Kharwar - Developer`,
     description: `Howdy! I'm Naveen Kharwar — a freelance designer and Web/WordPress developer from India.`,
     author: `@naveenkharwar`,
+    siteUrl: `https://www.naveenkharwar.dev`,
+    siteVerification: {
+        google: `google-site-verification=_1BihvGcUVsVttjoGtY-WqTD8tfSi55-oMd6yM9E_rg`
+    }
   },
   plugins: [
     `gatsby-plugin-postcss`,
