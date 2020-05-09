@@ -1,12 +1,22 @@
 module.exports = {
   siteMetadata: {
     title: `Naveen Kharwar - Developer`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Howdy! I'm Naveen Kharwar — a freelance designer and Web/WordPress developer from India.`,
     author: `@naveenkharwar`,
+    siteUrl: `https://www.naveenkharwar.dev`,
+    siteVerification: {
+        google: `google-site-verification=_1BihvGcUVsVttjoGtY-WqTD8tfSi55-oMd6yM9E_rg`
+    }
   },
   plugins: [
     `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
+    {
+        resolve: `gatsby-plugin-sitemap`,
+        options: {
+            exclude: ['/404'],
+        },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
