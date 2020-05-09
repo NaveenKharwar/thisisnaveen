@@ -1,12 +1,19 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: `https://www.naveenkharwar.dev`,
     title: `Naveen Kharwar - Developer`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Howdy! I'm Naveen Kharwar — a freelance designer and Web/WordPress developer from India.`,
     author: `@naveenkharwar`,
   },
   plugins: [
     `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
+    {
+        resolve: `gatsby-plugin-sitemap`,
+        options: {
+            exclude: ['/404'],
+        },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
