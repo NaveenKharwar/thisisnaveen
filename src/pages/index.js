@@ -2,11 +2,15 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import { Helmet } from "react-helmet"
+
 import SocialIcons from "../components/social/socialIcons"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+      <Helmet>
+          <title>Naveen Kharwar</title>
+      </Helmet>
     <section className="lg:px-0 px-6">
       <div className="container mx-auto ">
         <h1 className="lg:text-5xl text-4xl font-normal">
