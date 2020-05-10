@@ -33,6 +33,7 @@ const IndexPage = () => (
         <SocialIcons />
         <a
           className="inline-block bg-gray-800 hover:bg-gray-200 text-gray-100 hover:text-gray-900 font-brand text-base font-semibold py-3 px-5"
+          target="_blank" rel="me noopener noreferrer"
           href="https://wayoutworks.in/projects/"
         >
           watch my portfolio
