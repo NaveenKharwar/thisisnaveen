@@ -4,9 +4,6 @@ module.exports = {
     description: `Howdy! I'm Naveen Kharwar — a freelance designer and Web/WordPress developer from India.`,
     author: `@naveenkharwar`,
     siteUrl: `https://www.naveenkharwar.dev`,
-    siteVerification: {
-        google: `google-site-verification=_1BihvGcUVsVttjoGtY-WqTD8tfSi55-oMd6yM9E_rg`
-    }
   },
   plugins: [
     `gatsby-plugin-postcss`,
@@ -16,6 +13,12 @@ module.exports = {
         options: {
             exclude: ['/404'],
         },
+    },
+    {
+        resolve: `gatsby-plugin-robots-txt`,
+        options: {
+            policy: [{ userAgent: '*', allow: '/' }]
+        }
     },
     {
       resolve: `gatsby-source-filesystem`,
