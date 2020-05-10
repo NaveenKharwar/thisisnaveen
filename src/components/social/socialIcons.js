@@ -31,7 +31,7 @@ const accounts = [
   {
     id: "4",
     account: "Instagram",
-    url: "https://www.instagram.com/naveenkhar.war/",
+    url: "https://www.instagram.com/naveenkharwar.dev/",
     icon: <FaInstagram />,
   },
   {
@@ -50,7 +50,7 @@ const accounts = [
 
 function SocialIcons(props) {
   const listAccounts = accounts.map(item => (
-    <a className="social-icons" key={item.id} href={item.url}>
+    <a className="social-icons" target="_blank" rel="me noopener noreferrer" key={item.id} href={item.url}>
       {item.icon}
       <span className="after-icons">{item.account}</span>
     </a>
