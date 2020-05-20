@@ -9,7 +9,14 @@ import SocialIcons from "../components/social/socialIcons"
 const IndexPage = () => (
   <Layout>
       <Helmet>
-          <title>Naveen Kharwar</title>
+          <html lang="en" />
+          <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <meta name="author" content="Naveen Kharwar" />
+          <title>Naveen Kharwar | Developer and Problem Solver</title>
+          <meta name="description" content="Howdy! I'm Naveen Kharwar — a freelance designer and Web/WordPress developer from India." />
+          <meta name="keywords" content="Naveen Kharwar, Naveen Developer, Naveen Varanasi, Naveen Kharwar WordPress, Naveen WordPress" />
+          <meta name="theme-color" content="#000" />
       </Helmet>
     <section className="lg:px-0 px-6">
       <div className="container mx-auto ">
