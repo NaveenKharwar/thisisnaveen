@@ -1,12 +1,22 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import { Helmet } from "react-helmet"
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="Contact Naveen" />
+    <Helmet>
+      <html lang="en" />
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="author" content="Naveen Kharwar" />
+      <title>Contact @NaveenKharwar ?</title>
+      <meta name="description" content="Everything you need to contact Naveen Kharwar." />
+      <meta
+        name="keywords"
+        content="Naveen Kharwar, Naveen Developer, Naveen Varanasi, Naveen Kharwar WordPress, Naveen WordPress"
+      />
+      <meta name="theme-color" content="#000" />
+    </Helmet>
     <section className="site-content lg:px-0 px-6">
       <div className="container mx-auto">
           <h3 className="lg:text-4xl text-2xl">I am a teacher, student, friend, web developer if you need anyone from the following you can contact me.</h3>
